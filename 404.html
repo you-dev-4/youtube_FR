@@ -21,23 +21,27 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Acheter Abonne YouTube",
-        "url": "https://youlikes.fr",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Nos services",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Page introuvable",
-                        "url": "https://youlikes.fr/404.html"
-                    }
+        "@graph": [
+            {
+                "@type": "Organization",
+                "name": "Acheter Abonne YouTube",
+                "url": "https://youlikes.fr",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Nos services",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "page introuvable",
+                                "url": "https://youlikes.fr/404.html"
+                            }
+                        }
+                    ]
                 }
-            ]
-        }
+            }
+        ]
     }
     </script>
 </head>

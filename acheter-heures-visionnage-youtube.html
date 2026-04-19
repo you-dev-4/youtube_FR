@@ -30,84 +30,148 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
+        "@graph": [
             {
-                "@type": "Question",
-                "name": "Les heures de visionnage comptent-elles pour la monetisation ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Oui, toutes les heures de visionnage que nous livrons sont comptabilisees par YouTube et contribuent directement a atteindre le seuil de 4000 heures requis pour le Programme Partenaire YouTube."
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Les heures de visionnage comptent-elles pour la monetisation ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Oui, toutes les heures de visionnage que nous livrons sont comptabilisees par YouTube et contribuent directement a atteindre le seuil de 4000 heures requis pour le Programme Partenaire YouTube."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Quel est le delai de livraison ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "La livraison demarre sous 24 heures apres la commande. Le delai complet depend du pack choisi, de 3 jours pour 1000 heures a 25 jours pour 4000 heures de visionnage."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Est-ce que ma chaine risque une sanction ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Non, nos heures de visionnage proviennent de vrais utilisateurs. La methode utilisee est 100% conforme aux conditions d'utilisation de YouTube. Aucun risque pour votre chaine."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Combien d'heures faut-il pour monetiser ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "YouTube exige 4000 heures de visionnage public au cours des 12 derniers mois, ainsi que 1000 abonnes minimum, pour acceder au Programme Partenaire YouTube et activer la monetisation."
+                        }
+                    }
+                ]
+            },
+            {
+                "@type": "Product",
+                "name": "Heure de Visionnage YouTube",
+                "description": "Heure de visionnage youtube pour atteindre le seuil de monetisation. 4000 h de visionnage youtube requis pour le Programme Partenaire. Achat heure visionnage youtube securise, livraison rapide et sans risque.",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "YouLikes"
+                },
+                "image": "https://youlikes.fr/logo.png",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "priceCurrency": "EUR",
+                    "lowPrice": "69",
+                    "highPrice": "249",
+                    "offerCount": "4",
+                    "availability": "https://schema.org/InStock"
                 }
             },
             {
-                "@type": "Question",
-                "name": "Quel est le delai de livraison ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "La livraison demarre sous 24 heures apres la commande. Le delai complet depend du pack choisi, de 3 jours pour 1000 heures a 25 jours pour 4000 heures de visionnage."
+                "@type": "Organization",
+                "name": "Acheter Abonne YouTube",
+                "url": "https://youlikes.fr",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Nos services",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "acheter heures visionnage youtube",
+                                "url": "https://youlikes.fr/acheter-heures-visionnage-youtube.html"
+                            }
+                        }
+                    ]
                 }
             },
             {
-                "@type": "Question",
-                "name": "Est-ce que ma chaine risque une sanction ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Non, nos heures de visionnage proviennent de vrais utilisateurs. La methode utilisee est 100% conforme aux conditions d'utilisation de YouTube. Aucun risque pour votre chaine."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Combien d'heures faut-il pour monetiser ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "YouTube exige 4000 heures de visionnage public au cours des 12 derniers mois, ainsi que 1000 abonnes minimum, pour acceder au Programme Partenaire YouTube et activer la monetisation."
-                }
+                "@type": "ItemList",
+                "name": "Offres",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "1 000 Heures",
+                            "description": "Pack 1 000 Heures.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "69",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "2 000 Heures",
+                            "description": "Pack 2 000 Heures.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "129",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "3 000 Heures",
+                            "description": "Pack 3 000 Heures.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "189",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 4,
+                        "item": {
+                            "@type": "Product",
+                            "name": "4 000 Heures",
+                            "description": "Pack 4 000 Heures.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "249",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    }
+                ]
             }
         ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "Heure de Visionnage YouTube",
-        "description": "Heure de visionnage youtube pour atteindre le seuil de monetisation. 4000 h de visionnage youtube requis pour le Programme Partenaire. Achat heure visionnage youtube securise, livraison rapide et sans risque.",
-        "brand": {
-            "@type": "Brand",
-            "name": "YouLikes"
-        },
-        "image": "https://youlikes.fr/logo.png",
-        "offers": {
-            "@type": "AggregateOffer",
-            "priceCurrency": "EUR",
-            "lowPrice": "69",
-            "highPrice": "249",
-            "offerCount": "4",
-            "availability": "https://schema.org/InStock"
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Acheter Abonne YouTube",
-        "url": "https://youlikes.fr",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Nos services",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Acheter Heures Visionnage YouTube",
-                        "url": "https://youlikes.fr/acheter-heures-visionnage-youtube.html"
-                    }
-                }
-            ]
-        }
     }
     </script>
 </head>

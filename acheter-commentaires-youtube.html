@@ -30,84 +30,133 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
+        "@graph": [
             {
-                "@type": "Question",
-                "name": "Les commentaires YouTube sont-ils personnalisables ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Oui, tous nos commentaires sont 100% personnalisables. Vous nous envoyez les textes de votre choix et nous les publions sur votre video. Vous gardez un controle total sur le contenu des commentaires."
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Les commentaires YouTube sont-ils personnalisables ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Oui, tous nos commentaires sont 100% personnalisables. Vous nous envoyez les textes de votre choix et nous les publions sur votre video. Vous gardez un controle total sur le contenu des commentaires."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Quel est le delai de livraison ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "La livraison demarre sous 12 a 24 heures apres la commande. Le delai complet depend du nombre de commentaires commandes, de 12h pour 5 commentaires a 6 jours pour 100 commentaires."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Est-ce que ma chaine risque une sanction ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Non, nos commentaires sont publies par de vrais comptes actifs. La methode est naturelle et sans risque pour votre chaine YouTube. Aucune sanction possible."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Les commentaires restent-ils visibles ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Oui, les commentaires restent visibles de maniere permanente sur votre video. Ils sont publies par des comptes reels et actifs, ce qui garantit leur stabilite dans le temps."
+                        }
+                    }
+                ]
+            },
+            {
+                "@type": "Product",
+                "name": "Acheter Commentaires YouTube",
+                "description": "Achat commentaire youtube personnalise 100% reel. Acheter commentaire youtube de qualite. Acheter commentaires youtube a partir de 47 euros les 100 commentaires, livraison rapide et sans risque.",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "YouLikes"
+                },
+                "image": "https://youlikes.fr/logo.png",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "priceCurrency": "EUR",
+                    "lowPrice": "47",
+                    "highPrice": "245",
+                    "offerCount": "3",
+                    "availability": "https://schema.org/InStock"
                 }
             },
             {
-                "@type": "Question",
-                "name": "Quel est le delai de livraison ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "La livraison demarre sous 12 a 24 heures apres la commande. Le delai complet depend du nombre de commentaires commandes, de 12h pour 5 commentaires a 6 jours pour 100 commentaires."
+                "@type": "Organization",
+                "name": "Acheter Abonne YouTube",
+                "url": "https://youlikes.fr",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Nos services",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "acheter commentaires youtube",
+                                "url": "https://youlikes.fr/acheter-commentaires-youtube.html"
+                            }
+                        }
+                    ]
                 }
             },
             {
-                "@type": "Question",
-                "name": "Est-ce que ma chaine risque une sanction ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Non, nos commentaires sont publies par de vrais comptes actifs. La methode est naturelle et sans risque pour votre chaine YouTube. Aucune sanction possible."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Les commentaires restent-ils visibles ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Oui, les commentaires restent visibles de maniere permanente sur votre video. Ils sont publies par des comptes reels et actifs, ce qui garantit leur stabilite dans le temps."
-                }
+                "@type": "ItemList",
+                "name": "Offres",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "100 Commentaires",
+                            "description": "Pack 100 Commentaires.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "47",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "300 Commentaires",
+                            "description": "Pack 300 Commentaires.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "98",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "500 Commentaires",
+                            "description": "Pack 500 Commentaires.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "245",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    }
+                ]
             }
         ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "Acheter Commentaires YouTube",
-        "description": "Achat commentaire youtube personnalise 100% reel. Acheter commentaire youtube de qualite. Acheter commentaires youtube a partir de 47 euros les 100 commentaires, livraison rapide et sans risque.",
-        "brand": {
-            "@type": "Brand",
-            "name": "YouLikes"
-        },
-        "image": "https://youlikes.fr/logo.png",
-        "offers": {
-            "@type": "AggregateOffer",
-            "priceCurrency": "EUR",
-            "lowPrice": "47",
-            "highPrice": "245",
-            "offerCount": "3",
-            "availability": "https://schema.org/InStock"
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Acheter Abonne YouTube",
-        "url": "https://youlikes.fr",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Nos services",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Acheter Commentaires YouTube",
-                        "url": "https://youlikes.fr/acheter-commentaires-youtube.html"
-                    }
-                }
-            ]
-        }
     }
     </script>
 </head>

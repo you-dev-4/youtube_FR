@@ -30,378 +30,141 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
+        "@graph": [
             {
-                "@type": "Question",
-                "name": "Que contient le pack monetisation YouTube ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Le pack monetisation inclut les 4000 heures de visionnage public et les 1000 abonnes necessaires pour rejoindre le Programme Partenaire YouTube et activer la monetisation de votre chaine."
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Que contient le pack monetisation YouTube ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Le pack monetisation inclut les 4000 heures de visionnage public et les 1000 abonnes necessaires pour rejoindre le Programme Partenaire YouTube et activer la monetisation de votre chaine."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Combien de temps faut-il pour monetiser ma chaine ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Avec notre pack complet, comptez 14 a 30 jours pour recevoir l'ensemble des heures et abonnes. La demande de monetisation peut ensuite etre soumise a YouTube qui l'examine sous 1 a 4 semaines."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Est-ce que ma chaine risque une sanction ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Non, nos heures de visionnage et abonnes proviennent de vrais utilisateurs. La methode est 100% conforme aux conditions d'utilisation de YouTube. Aucun risque pour votre chaine."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Les heures et abonnes restent-ils apres la monetisation ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Oui, les heures de visionnage sont definitivement comptabilisees par YouTube. Pour les abonnes, nous offrons une garantie de remplacement pendant 30 jours en cas de perte."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Quelles sont les conditions pour monetiser YouTube ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "YouTube exige 4000 heures de visionnage public sur les 12 derniers mois, 1000 abonnes minimum, un compte AdSense lie, et le respect des regles de la communaute. Notre pack couvre les deux conditions les plus difficiles a atteindre."
+                        }
+                    }
+                ]
+            },
+            {
+                "@type": "Product",
+                "name": "Monetisation YouTube",
+                "description": "Monetisation youtube cle en main. Monetiser youtube rapidement avec notre pack complet. Monetiser chaine youtube avec 4000 heures de visionnage + 1000 abonnes. Monetiser sa chaine youtube sans risque. YouTube studio monetisation activee en 14 a 30 jours.",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "YouLikes"
+                },
+                "image": "https://youlikes.fr/logo.png",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "priceCurrency": "EUR",
+                    "lowPrice": "199",
+                    "highPrice": "499",
+                    "offerCount": "3",
+                    "availability": "https://schema.org/InStock"
                 }
             },
             {
-                "@type": "Question",
-                "name": "Combien de temps faut-il pour monetiser ma chaine ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Avec notre pack complet, comptez 14 a 30 jours pour recevoir l'ensemble des heures et abonnes. La demande de monetisation peut ensuite etre soumise a YouTube qui l'examine sous 1 a 4 semaines."
+                "@type": "Organization",
+                "name": "Acheter Abonne YouTube",
+                "url": "https://youlikes.fr",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Nos services",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "monetisation youtube",
+                                "url": "https://youlikes.fr/monetisation-youtube.html"
+                            }
+                        }
+                    ]
                 }
             },
             {
-                "@type": "Question",
-                "name": "Est-ce que ma chaine risque une sanction ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Non, nos heures de visionnage et abonnes proviennent de vrais utilisateurs. La methode est 100% conforme aux conditions d'utilisation de YouTube. Aucun risque pour votre chaine."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Les heures et abonnes restent-ils apres la monetisation ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Oui, les heures de visionnage sont definitivement comptabilisees par YouTube. Pour les abonnes, nous offrons une garantie de remplacement pendant 30 jours en cas de perte."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Quelles sont les conditions pour monetiser YouTube ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "YouTube exige 4000 heures de visionnage public sur les 12 derniers mois, 1000 abonnes minimum, un compte AdSense lie, et le respect des regles de la communaute. Notre pack couvre les deux conditions les plus difficiles a atteindre."
-                }
+                "@type": "ItemList",
+                "name": "Offres",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "Starter",
+                            "description": "Pack Starter.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "199",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "Monétisation",
+                            "description": "Pack Monétisation.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "319",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "Premium",
+                            "description": "Pack Premium.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "499",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    }
+                ]
             }
         ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "Monetisation YouTube",
-        "description": "Monetisation youtube cle en main. Monetiser youtube rapidement avec notre pack complet. Monetiser chaine youtube avec 4000 heures de visionnage + 1000 abonnes. Monetiser sa chaine youtube sans risque. YouTube studio monetisation activee en 14 a 30 jours.",
-        "brand": {
-            "@type": "Brand",
-            "name": "YouLikes"
-        },
-        "image": "https://youlikes.fr/logo.png",
-        "offers": {
-            "@type": "AggregateOffer",
-            "priceCurrency": "EUR",
-            "lowPrice": "199",
-            "highPrice": "499",
-            "offerCount": "3",
-            "availability": "https://schema.org/InStock"
-        }
-    }
-    </script>
-    <style>
-        .pack-highlight {
-            background: linear-gradient(135deg, #FF0000 0%, #CC0000 100%);
-            padding: 80px 0;
-            position: relative;
-            overflow: hidden;
-        }
-        .pack-highlight::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            right: -20%;
-            width: 600px;
-            height: 600px;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.03);
-        }
-        .pack-highlight::after {
-            content: '';
-            position: absolute;
-            bottom: -30%;
-            left: -10%;
-            width: 400px;
-            height: 400px;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.02);
-        }
-        .pack-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 60px;
-            align-items: center;
-            position: relative;
-            z-index: 1;
-        }
-        .pack-info h2 {
-            font-size: 36px;
-            font-weight: 800;
-            color: #ffffff;
-            margin-bottom: 20px;
-            line-height: 1.2;
-        }
-        .pack-info p {
-            font-size: 16px;
-            color: rgba(255, 255, 255, 0.85);
-            line-height: 1.8;
-            margin-bottom: 24px;
-        }
-        .pack-includes {
-            list-style: none;
-            margin-bottom: 32px;
-        }
-        .pack-includes li {
-            padding: 12px 0;
-            font-size: 16px;
-            font-weight: 600;
-            color: #ffffff;
-            display: flex;
-            align-items: center;
-            gap: 14px;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-        }
-        .pack-includes li:last-child {
-            border-bottom: none;
-        }
-        .pack-includes .icon {
-            width: 36px;
-            height: 36px;
-            background: rgba(255, 255, 255, 0.15);
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 18px;
-            flex-shrink: 0;
-        }
-        .pack-card-main {
-            background: #ffffff;
-            border-radius: 24px;
-            padding: 48px 40px;
-            text-align: center;
-            box-shadow: 0 30px 80px rgba(0, 0, 0, 0.3);
-            position: relative;
-        }
-        .pack-card-main .pack-label {
-            background: linear-gradient(135deg, #FF0000, #CC0000);
-            color: #ffffff;
-            padding: 8px 24px;
-            border-radius: 30px;
-            font-size: 12px;
-            font-weight: 800;
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-            display: inline-block;
-            margin-bottom: 24px;
-        }
-        .pack-card-main h3 {
-            font-size: 22px;
-            font-weight: 800;
-            color: #282828;
-            margin-bottom: 8px;
-        }
-        .pack-card-main .pack-subtitle {
-            font-size: 14px;
-            color: #606060;
-            margin-bottom: 28px;
-        }
-        .pack-card-main .pack-price {
-            font-size: 64px;
-            font-weight: 800;
-            color: #FF0000;
-            line-height: 1;
-            margin-bottom: 4px;
-        }
-        .pack-card-main .pack-old-price {
-            font-size: 18px;
-            color: #999;
-            text-decoration: line-through;
-            margin-bottom: 8px;
-        }
-        .pack-card-main .pack-economy {
-            display: inline-block;
-            background: #FEE2E2;
-            color: #FF0000;
-            padding: 6px 16px;
-            border-radius: 20px;
-            font-size: 13px;
-            font-weight: 700;
-            margin-bottom: 28px;
-        }
-        .pack-card-main .pack-details {
-            text-align: left;
-            margin-bottom: 28px;
-        }
-        .pack-card-main .pack-details li {
-            padding: 10px 0;
-            font-size: 14px;
-            color: #282828;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            border-bottom: 1px solid #f0f0f0;
-        }
-        .pack-card-main .pack-details li:last-child {
-            border-bottom: none;
-        }
-        .pack-card-main .pack-details .check {
-            color: #FF0000;
-            font-weight: 700;
-            font-size: 16px;
-        }
-        .comparison {
-            padding: 100px 0;
-            background: #ffffff;
-        }
-        .comparison-table {
-            width: 100%;
-            max-width: 900px;
-            margin: 60px auto 0;
-            border-collapse: separate;
-            border-spacing: 0;
-            border-radius: 16px;
-            overflow: hidden;
-            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
-        }
-        .comparison-table thead th {
-            background: #FF0000;
-            color: #ffffff;
-            padding: 20px 24px;
-            font-size: 14px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            text-align: center;
-        }
-        .comparison-table thead th:first-child {
-            text-align: left;
-        }
-        .comparison-table tbody td {
-            padding: 16px 24px;
-            font-size: 14px;
-            color: #282828;
-            border-bottom: 1px solid #f0f0f0;
-            text-align: center;
-        }
-        .comparison-table tbody td:first-child {
-            text-align: left;
-            font-weight: 600;
-        }
-        .comparison-table tbody tr:last-child td {
-            border-bottom: none;
-        }
-        .comparison-table tbody tr:hover {
-            background: #FEF2F2;
-        }
-        .comparison-table .yes {
-            color: #FF0000;
-            font-weight: 700;
-            font-size: 18px;
-        }
-        .comparison-table .no {
-            color: #ccc;
-            font-size: 18px;
-        }
-        .pack-featured {
-            background: #FEE2E2;
-            font-weight: 700 !important;
-        }
-        .guarantee-section {
-            padding: 80px 0;
-            background: #f9f9f9;
-        }
-        .guarantee-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 28px;
-            margin-top: 60px;
-        }
-        .guarantee-card {
-            background: #ffffff;
-            padding: 40px 28px;
-            border-radius: 16px;
-            text-align: center;
-            border: 1px solid rgba(0, 0, 0, 0.06);
-            transition: all 0.35s ease;
-        }
-        .guarantee-card:hover {
-            transform: translateY(-6px);
-            box-shadow: 0 12px 40px rgba(255, 0, 0, 0.08);
-            border-color: rgba(255, 0, 0, 0.15);
-        }
-        .guarantee-icon {
-            width: 64px;
-            height: 64px;
-            margin: 0 auto 20px;
-            background: #FEE2E2;
-            border-radius: 16px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 28px;
-        }
-        .guarantee-card h3 {
-            font-size: 17px;
-            font-weight: 700;
-            color: #282828;
-            margin-bottom: 10px;
-        }
-        .guarantee-card p {
-            font-size: 14px;
-            color: #606060;
-            line-height: 1.7;
-        }
-        @media (max-width: 768px) {
-            .pack-grid {
-                grid-template-columns: 1fr;
-                gap: 40px;
-            }
-            .pack-info h2 {
-                font-size: 28px;
-                text-align: center;
-            }
-            .pack-info p {
-                text-align: center;
-            }
-            .pack-card-main {
-                padding: 36px 24px;
-            }
-            .pack-card-main .pack-price {
-                font-size: 48px;
-            }
-            .comparison-table {
-                font-size: 12px;
-            }
-            .comparison-table thead th,
-            .comparison-table tbody td {
-                padding: 12px 10px;
-            }
-            .guarantee-grid {
-                grid-template-columns: 1fr;
-            }
-            .guarantee-section, .comparison, .pack-highlight {
-                padding: 50px 0;
-            }
-        }
-    </style>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Acheter Abonne YouTube",
-        "url": "https://youlikes.fr",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Nos services",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Monetisation YouTube",
-                        "url": "https://youlikes.fr/monetisation-youtube.html"
-                    }
-                }
-            ]
-        }
     }
     </script>
 </head>
